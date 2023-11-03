@@ -1,0 +1,5 @@
+Table,Non_unique,Key_name,Seq_in_index,Column_name,Collation,Cardinality,Sub_part,Packed,Null,Index_type,Comment,Index_comment,Visible,Expression
+inhabitants_to_flats,0,PRIMARY,1,id,A,51,NULL,NULL,,BTREE,,,YES,NULL
+inhabitants_to_flats,1,flat_id,1,flat_id,A,33,NULL,NULL,YES,BTREE,,,YES,NULL
+inhabitants_to_flats,1,mult_col_inhab_to_flats,1,resident_id,A,50,NULL,NULL,YES,BTREE,,,YES,NULL
+inhabitants_to_flats,1,mult_col_inhab_to_flats,2,flat_id,A,51,NULL,NULL,YES,BTREE,,,YES,NULL
